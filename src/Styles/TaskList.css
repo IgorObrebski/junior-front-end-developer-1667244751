@@ -38,6 +38,7 @@
 }
 
 .task {
+  text-decoration: none;
   padding: 0.6vh;
   font-style: medium;
   font-size: 12px;

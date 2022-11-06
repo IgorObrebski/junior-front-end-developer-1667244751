@@ -1,6 +1,7 @@
 import React from "react";
 import "../Styles/Topic.css";
 
+
 const Topic = ({ title, author, date, status }) => {
   return (
     <div
