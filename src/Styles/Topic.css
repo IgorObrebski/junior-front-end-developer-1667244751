@@ -1,0 +1,50 @@
+.topic {
+  display: flex;
+  flex-direction: column;
+  height: 13vh;
+  background-color: white;
+  margin-top: 10%;
+  border-radius: 15px;
+  width: 90%;
+  margin-left: 5%;
+}
+
+.topicHeader {
+  margin-top: 5%;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  background-color: transparent;
+}
+
+.new {
+  font-family: "Poppins";
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0165ff;
+  color: white;
+  border-radius: 4px;
+  margin-left: 5%;
+  margin-right: 10%;
+  width: 40px;
+  height: 20px;
+}
+.author {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+.text {
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 14px;
+}
+
+

@@ -1,0 +1,34 @@
+.bussinesContext {
+  display: flex;
+  flex-direction: column;
+  margin-left: 1%;
+  background-color: white;
+  width: 90%;
+  border-radius: 15px;
+}
+
+.contextHeader {
+  font-family: "Poppins";
+  font-weight: 600;
+  font-size: 12px;
+  display: flex;
+  height: 8%;
+  width: 21%;
+  align-items: center;
+  margin-left: 5%;
+  border-bottom: 2px solid #0165ff;
+  color: #0165ff;
+}
+
+.elipse {
+  border-color: #0165ff;
+  border-style: solid;
+  border-radius: 100%;
+  width: 16px;
+  height: 16px;
+  margin-right: 20%;
+}
+
+.context {
+  height: 100%;
+}

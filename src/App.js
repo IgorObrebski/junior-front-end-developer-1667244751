@@ -7,15 +7,6 @@ function App() {
     <div className='App'>
       <Header />
       <TaskList />
-
-      <div className='BusinessContext'>
-        <header></header>
-        <div className='Content'>
-          <div className='Msg'></div>
-          <div className='Info'></div>
-        </div>
-      </div>
-      <footer></footer>
     </div>
   );
 }
