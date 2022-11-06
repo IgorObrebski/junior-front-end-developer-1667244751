@@ -1,0 +1,60 @@
+.taskList {
+  width: 20%;
+  height: 90vh;
+  border-radius: 15px;
+  background-color: white;
+}
+
+.taskHeader {
+  border-bottom: solid 0.5px #f4f5f7;
+  font-family: "Poppins";
+  font-style: normal;
+  font-size: 12px;
+  font-weight: 600;
+  display: flex;
+  align-items: center;
+  padding-left: 5%;
+  height: 8%;
+}
+
+.done {
+  height: 5px;
+  width: 5px;
+  margin-right: 5px;
+  background-color: #47bf7c;
+}
+
+.active {
+  height: 5px;
+  width: 5px;
+  margin-right: 5px;
+  background-color: blue;
+}
+.blocked {
+  height: 5px;
+  width: 5px;
+  margin-right: 5px;
+  background-color: grey;
+}
+
+.task {
+  padding: 0.6vh;
+  font-style: medium;
+  font-size: 12px;
+  font-weight: 500;
+  font-family: "Poppins";
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin-left: 3%;
+  width: 55%;
+  border-radius: 6%;
+}
+
+.task:hover {
+  background-color: rgba(35, 154, 252, 0.288);
+}
+
+.task:first-child {
+  margin-top: 5%;
+}

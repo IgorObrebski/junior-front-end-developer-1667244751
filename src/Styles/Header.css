@@ -1,0 +1,20 @@
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: transparent;
+  width: 98%;
+  height: 8%;
+}
+
+.header img {
+  height: 35%;
+}
+
+.avatar {
+  border-radius: 50%;
+  width: 3vw;
+  height: 3vw;
+}
